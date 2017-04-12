@@ -11,7 +11,7 @@ def text_reply(msg):
     print msg
     print msg['FromUserName']
     remsg = msg['Content'].encode('utf-8')
-    return remsg
+    return '我'
 
 
 if __name__ == '__main__':
