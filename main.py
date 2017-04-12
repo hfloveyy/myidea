@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 import itchatmp
 
 itchatmp.update_config(itchatmp.WechatConfig(
