@@ -8,8 +8,7 @@ itchatmp.update_config(itchatmp.WechatConfig(
 
 @itchatmp.msg_register(itchatmp.content.TEXT)
 def text_reply(msg):
-    print msg
-    return msg['Content']
+    return msg
 
 
 if __name__ == '__main__':
