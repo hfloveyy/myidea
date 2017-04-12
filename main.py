@@ -9,8 +9,8 @@ itchatmp.update_config(itchatmp.WechatConfig(
 @itchatmp.msg_register(itchatmp.content.TEXT)
 def text_reply(msg):
     print msg['FromUserName']
-    print msg['Content'].encode('utf-8')
-    return msg['Content'].encode('utf-8')
+    remsg = msg['Content'].encode('utf-8')
+    return remsg
 
 
 if __name__ == '__main__':
