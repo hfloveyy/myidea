@@ -18,7 +18,7 @@ if __name__ == '__main__':
 infoDict = {
     'Title' : u'exploit',
     'Description' : u'exploit windows7 through winrar', }
-r = itchatmp.messages.upload(itchatmp.content.VIDEO, 'videos/myvideo.mp4',
+r = itchatmp.messages.upload(itchatmp.content.VIDEO, 'myvideo.mp4',
     additionalDict=infoDict, permanent=True)
 if r:
     print(r['media_id'])
